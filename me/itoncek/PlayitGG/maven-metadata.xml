@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>me.itoncek</groupId>
-  <artifactId>ManhuntCore</artifactId>
+  <artifactId>PlayitGG</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220415141022</lastUpdated>
+    <lastUpdated>20220415141141</lastUpdated>
   </versioning>
 </metadata>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>me.itoncek</groupId>
-  <artifactId>ManhuntCore</artifactId>
+  <artifactId>PlayitGG</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <versioning>
-    <lastUpdated>20220415141022</lastUpdated>
     <snapshot>
-      <timestamp>20220415.141022</timestamp>
+      <timestamp>20220415.141141</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
+    <lastUpdated>20220415141141</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20220415.141022-1</value>
-        <updated>20220415141022</updated>
+        <value>1.0-20220415.141141-1</value>
+        <updated>20220415141141</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20220415.141022-1</value>
-        <updated>20220415141022</updated>
+        <value>1.0-20220415.141141-1</value>
+        <updated>20220415141141</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
-  <version>1.0-SNAPSHOT</version>
 </metadata>
