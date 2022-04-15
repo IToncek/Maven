@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>co.aikar</groupId>
+  <artifactId>acf-bukkit</artifactId>
+  <versioning>
+    <versions>
+      <version>0.5.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220415174837</lastUpdated>
+  </versioning>
+</metadata>
