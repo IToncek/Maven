@@ -3,21 +3,21 @@
   <groupId>me.itoncek</groupId>
   <artifactId>ManhuntCore</artifactId>
   <versioning>
-    <lastUpdated>20220415140042</lastUpdated>
+    <lastUpdated>20220415141022</lastUpdated>
     <snapshot>
-      <timestamp>20220415.140042</timestamp>
+      <timestamp>20220415.141022</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20220415.140042-1</value>
-        <updated>20220415140042</updated>
+        <value>1.0-20220415.141022-1</value>
+        <updated>20220415141022</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20220415.140042-1</value>
-        <updated>20220415140042</updated>
+        <value>1.0-20220415.141022-1</value>
+        <updated>20220415141022</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
