@@ -2,19 +2,19 @@
 <metadata modelVersion="1.1.0">
   <groupId>co.aikar</groupId>
   <artifactId>acf-parent</artifactId>
-  <version>0.5.1-SNAPSHOT</version>
   <versioning>
+    <lastUpdated>20220415175228</lastUpdated>
     <snapshot>
-      <timestamp>20220415.174817</timestamp>
+      <timestamp>20220415.175228</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20220415174817</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.5.1-20220415.174817-1</value>
-        <updated>20220415174817</updated>
+        <value>0.5.1-20220415.175228-1</value>
+        <updated>20220415175228</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
+  <version>0.5.1-SNAPSHOT</version>
 </metadata>
