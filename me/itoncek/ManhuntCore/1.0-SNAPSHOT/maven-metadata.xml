@@ -2,24 +2,24 @@
 <metadata modelVersion="1.1.0">
   <groupId>me.itoncek</groupId>
   <artifactId>ManhuntCore</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <versioning>
+    <lastUpdated>20220415165238</lastUpdated>
     <snapshot>
-      <timestamp>20220415.150715</timestamp>
+      <timestamp>20220415.165238</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20220415150715</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20220415.150715-1</value>
-        <updated>20220415150715</updated>
+        <value>1.0-20220415.165238-1</value>
+        <updated>20220415165238</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20220415.150715-1</value>
-        <updated>20220415150715</updated>
+        <value>1.0-20220415.165238-1</value>
+        <updated>20220415165238</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
+  <version>1.0-SNAPSHOT</version>
 </metadata>
