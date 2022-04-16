@@ -3,27 +3,27 @@
   <groupId>co.aikar</groupId>
   <artifactId>acf-bukkit</artifactId>
   <versioning>
-    <lastUpdated>20220415175228</lastUpdated>
+    <lastUpdated>20220416120105</lastUpdated>
     <snapshot>
-      <timestamp>20220415.175228</timestamp>
+      <timestamp>20220416.120105</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.5.1-20220415.175228-1</value>
-        <updated>20220415175228</updated>
+        <value>0.5.1-20220416.120105-1</value>
+        <updated>20220416120105</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.5.1-20220415.175228-1</value>
-        <updated>20220415175228</updated>
+        <value>0.5.1-20220416.120105-1</value>
+        <updated>20220416120105</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.5.1-20220415.175228-1</value>
-        <updated>20220415175228</updated>
+        <value>0.5.1-20220416.120105-1</value>
+        <updated>20220416120105</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
