@@ -3,21 +3,21 @@
   <groupId>me.itoncek</groupId>
   <artifactId>Fem3xEscapeRoom</artifactId>
   <versioning>
-    <lastUpdated>20220420154058</lastUpdated>
+    <lastUpdated>20220420154246</lastUpdated>
     <snapshot>
-      <timestamp>20220420.154058</timestamp>
+      <timestamp>20220420.154246</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20220420.154058-1</value>
-        <updated>20220420154058</updated>
+        <value>1.0-20220420.154246-1</value>
+        <updated>20220420154246</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20220420.154058-1</value>
-        <updated>20220420154058</updated>
+        <value>1.0-20220420.154246-1</value>
+        <updated>20220420154246</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
