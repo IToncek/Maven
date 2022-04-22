@@ -3,21 +3,21 @@
   <groupId>me.itoncek</groupId>
   <artifactId>1minuteMob</artifactId>
   <versioning>
-    <lastUpdated>20220422201051</lastUpdated>
+    <lastUpdated>20220422201206</lastUpdated>
     <snapshot>
-      <timestamp>20220422.201051</timestamp>
+      <timestamp>20220422.201206</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20220422.201051-1</value>
-        <updated>20220422201051</updated>
+        <value>1.0-20220422.201206-1</value>
+        <updated>20220422201206</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20220422.201051-1</value>
-        <updated>20220422201051</updated>
+        <value>1.0-20220422.201206-1</value>
+        <updated>20220422201206</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
