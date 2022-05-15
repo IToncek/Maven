@@ -3,27 +3,27 @@
   <groupId>com.github.masecla22</groupId>
   <artifactId>java-express</artifactId>
   <versioning>
-    <lastUpdated>20220515135431</lastUpdated>
+    <lastUpdated>20220515135440</lastUpdated>
     <snapshot>
-      <timestamp>20220515.135431</timestamp>
+      <timestamp>20220515.135440</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.2.2-20220515.135431-1</value>
-        <updated>20220515135431</updated>
+        <value>0.2.2-20220515.135440-1</value>
+        <updated>20220515135440</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.2.2-20220515.135431-1</value>
-        <updated>20220515135431</updated>
+        <value>0.2.2-20220515.135440-1</value>
+        <updated>20220515135440</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.2.2-20220515.135431-1</value>
-        <updated>20220515135431</updated>
+        <value>0.2.2-20220515.135440-1</value>
+        <updated>20220515135440</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
