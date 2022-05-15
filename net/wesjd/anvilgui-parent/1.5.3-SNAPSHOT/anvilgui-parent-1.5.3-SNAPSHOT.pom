@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.wesjd</groupId>
+    <artifactId>anvilgui-parent</artifactId>
+    <version>1.5.3-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <github.global.server>github</github.global.server>
+    </properties>
+
+    <modules>
+        <module>api</module>
+        <module>abstraction</module>
+        <module>1_7_R4</module>
+        <module>1_8_R1</module>
+        <module>1_8_R2</module>
+        <module>1_8_R3</module>
+        <module>1_9_R1</module>
+        <module>1_9_R2</module>
+        <module>1_10_R1</module>
+        <module>1_11_R1</module>
+        <module>1_12_R1</module>
+        <module>1_13_R1</module>
+        <module>1_13_R2</module>
+        <module>1_14_R1</module>
+        <module>1_14_4_R1</module>
+        <module>1_15_R1</module>
+        <module>1_16_R1</module>
+        <module>1_16_R2</module>
+        <module>1_16_R3</module>
+        <module>1_17_R1</module>
+        <module>1_17_1_R1</module>
+        <module>1_18_R1</module>
+        <module>1_18_R2</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>nms-repo</id>
+            <url>https://repo.codemc.org/repository/nms/</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-shade-plugin</artifactId>
+                    <version>3.2.4</version>
+                    <executions>
+                        <execution>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>shade</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.8.1</version>
+                    <configuration>
+                        <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>com.github.github</groupId>
+                    <artifactId>site-maven-plugin</artifactId>
+                    <version>0.11</version>
+                    <configuration>
+                        <message>${project.groupId}.${project.artifactId}@${project.version}</message>  <!-- git commit message -->
+                        <noJekyll>true</noJekyll>                                                       <!-- disable webpage processing -->
+                        <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>          <!-- matches distribution management repository url above -->
+                        <branch>refs/heads/main</branch>                                                <!-- remote branch name -->
+                        <includes><include>**/*</include></includes>
+                        <repositoryName>Maven</repositoryName>                                          <!-- github repo name -->
+                        <repositoryOwner>IToncek</repositoryOwner>                                      <!-- github username  -->
+                        <merge>true</merge>                                                             <!-- merge this update with the previous one -->
+                    </configuration>
+                    <executions>
+                        <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
+                        <execution>
+                            <goals>
+                                <goal>site</goal>
+                            </goals>
+                            <phase>deploy</phase>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>3.2.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Temporary Staging Repository</name>
+            <url>file://${project.build.directory}/mvn-repo</url>
+        </repository>
+    </distributionManagement>
+
+</project>
